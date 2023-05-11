@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | QR code component</title>
+  <style>
+    *{
+      font-family: Arial;
+    }
+    body{
+      background: rgb(211, 206, 231);
+    }
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+
+    .card{
+      width: 340px;
+      height: 380px;
+      padding-top: 50px;
+      padding-bottom: 80px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      border: 1px solid none;
+      margin: 0px auto;
+      background-color: #fefefe;
+      border-radius: 12px;
+    }
+    img{
+      width: 300px;
+      border-radius: 8px;
+    }
+    .parag1{
+      width: 270px;
+      text-align: center;
+      margin: 20px 0;
+      font-weight: bold;
+      font-size: 20px;
+      margin-top: 25px;
+      color:  hsl(218, 44%, 22%);
+    }
+
+    
+    .parag2{
+      width: 286px;
+      text-align: center;
+      margin:  0;
+      color: gray
+    }
+
+    @media (max-width:650px){
+      .card{
+        width: 80%;
+        height: 100%;
+        padding-top: 5%;
+        padding-bottom: 10%;
+        border-radius: 25px;
+      }
+      img{
+        width: 85%;
+        height: 10%;
+        border-radius: 12px;
+      }
+      .parag1{
+      font-size: 24px;
+      width: 300px;
+      }
+      .parag2{
+        width: 285px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <br>
+  <div class="card">
+    <img src="images/image-qr-code.png" alt="">
+    <p class="parag1"> 
+      Improve your front-end skills by building projects
+    </p>
+    <p class="parag2">
+      Scan the QR code to visit Frontend Mentor and take your coding skills to the next level
+    </p>
+  </div>
+  <br><br>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://github.com/Lumnaire">Castromero Ronald</a>.
+  </div>
+</body>
+</html>
